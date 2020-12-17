@@ -24,6 +24,7 @@
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_ball_red</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

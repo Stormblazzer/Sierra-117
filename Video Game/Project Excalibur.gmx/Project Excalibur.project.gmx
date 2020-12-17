@@ -10,6 +10,8 @@
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_hamburger</sprite>
       <sprite>sprites\spr_ball</sprite>
+      <sprite>sprites\spr_ball_red</sprite>
+      <sprite>sprites\spr_wall</sprite>
     </sprites>
     <sprites name="Ethan's great sprites">
       <sprite>sprites\spr_chair</sprite>
@@ -19,6 +21,15 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="Nathan_obj">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_player</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

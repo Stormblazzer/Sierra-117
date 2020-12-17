@@ -77,7 +77,10 @@ physics_world_gravity(-10, 0)
           <argument>
             <kind>1</kind>
             <string>/// shoot
-
+ball = instance_create(x, y, obj_ball_red);
+ball.direction = direction
+ball.image_angle = ball.direction;
+ball.speed = 12;
 </string>
           </argument>
         </arguments>

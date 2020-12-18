@@ -60,6 +60,9 @@ with other {
 hp --
 if hp &lt;= 0 {
     instance_destroy()
+    with draw_player_hp {
+        instance_destroy()
+    }
 }
 </string>
           </argument>
